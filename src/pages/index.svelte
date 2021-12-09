@@ -1,6 +1,7 @@
 <!-- routify:option name="example-app" -->
-<script>
+<script lang="ts">
   import NavLinks from "./_components/NavLinks.svelte";
+  export let hello: string = "Hello world"
 </script>
 
 <NavLinks />
@@ -20,6 +21,7 @@
     </a>
   </div>
 
-  <p>{location}</p>
+  <p>Location: {location}</p>
+  <div>From code: {hello}</div>
 
 </div>
