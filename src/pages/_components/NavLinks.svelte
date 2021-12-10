@@ -4,7 +4,7 @@
   const _links = [
     ["/", "⯇ BACK TO APP"],
     ["./index", "Home"],
-    ["./api", "Api"],
+    ["./dynamic", "Api"],
     ["./reset", "Reset"],
     ["./layouts", "Layouts"],
   ];

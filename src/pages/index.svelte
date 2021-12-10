@@ -1,5 +1,9 @@
 <!-- routify:option name="example-app" -->
+<script>
+  import NavLinks from "./_components/NavLinks.svelte";
+</script>
 
+<NavLinks />
 <div style="width: 100%; text-align: center; margin-top: 4rem;">
   <div>
     <b>Guide:</b>
@@ -15,5 +19,7 @@
       https://github.com/roxiness/routify-starter
     </a>
   </div>
+
+  <p>{location}</p>
 
 </div>
