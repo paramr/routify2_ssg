@@ -10,9 +10,6 @@ export default defineConfig({
 
   plugins: [
     viteMainJs(),
-    svelte({
-      preprocess: [],
-      emitCss: true,
-    }),
+    svelte(),
   ],
 });
